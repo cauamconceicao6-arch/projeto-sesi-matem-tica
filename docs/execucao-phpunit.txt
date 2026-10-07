@@ -5,6 +5,25 @@ Configuration: C:\Users\aluno.senai\Herd\PROJETO MATEMATICA\phpunit.xml
 
 .............                                                     13 / 13 (100%)
 
-Time: 00:00.013, Memory: 8.00 MB
+Time: 00:00.014, Memory: 8.00 MB
+
+Matriz Controller (Test\MatrizController)
+ ✔ Deve somar duas matrizes com sucesso
+ ✔ Deve subtrair duas matrizes com sucesso
+ ✔ Deve multiplicar duas matrizes com sucesso
+ ✔ Deve calcular matriz transposta
+ ✔ Deve calcular determinante matriz 1x 1
+ ✔ Deve calcular determinante matriz 2x 2
+ ✔ Deve resolver sistema linear s p d
+ ✔ Deve identificar sistema linear s p i
+ ✔ Deve identificar sistema linear s i
+ ✔ Deve lancar excecao para soma com dimensoes incompativeis
+ ✔ Deve lancar excecao para multiplicacao com dimensoes incompativeis
+ ✔ Deve lancar excecao para determinante em matriz nao quadrada
+ ✔ Deve lancar excecao para determinante maior que 2x 2
 
 OK (13 tests, 17 assertions)
+
+Código de saída: 0
+Commit testado: bc56aaf5cb247400febb884d76ea67e9534163e8
+Comando: php vendor/phpunit/phpunit/phpunit --configuration phpunit.xml --colors=never --testdox
